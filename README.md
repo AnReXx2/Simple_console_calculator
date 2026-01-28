@@ -29,7 +29,7 @@ The **good practices** of the project are: input validation, error handling, cle
 3. Build → Build Solution (Ctrl+Shift+B)
 4. Debug → Start Without Debugging (Ctrl+F5)
 
-### Command Line (Windows/Linux/Mac)
+### </> Command Line (Windows/Linux/Mac)
 ```bash
 git clone git@github.com:AnReXx2/Simple_console_calculator.git
 cd Simple_console_calculator

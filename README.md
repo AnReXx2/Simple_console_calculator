@@ -5,44 +5,54 @@
 [![C++ Version](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B17)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/AnReXx2/Simple_console_calculator/actions)
 
-## 🎯 პროექტის მიმოხილვა
-ეს არის **პროფესიონალური კონსოლური კალკულატორი C++-ში**, რომელიც შექმნილია **დამწყები-საშუალო დონის დეველოპერის** მიერ (ანრი).  
-პროექტი აჩვენებს **კარგ პრაქტიკებს**: input validation, error handling, clean code და user-friendly interface.
+## 🎯 Project Overview
+This is a **professional console editor in C++**, created by a **beginner-intermediate developer**.
+The **good practices** of the project are: input validation, error handling, clean code, and a user-friendly interface.
 
-**მთავარი თვისებები**:
-- მუდმივი გამოთვლა (do-while loop)
-- შეყვანის ვალიდაცია (რიცხვის ნაცვლად ასო → შეცდომა)
-- 0-ზე გაყოფის დაცვა
+**Main features**:
+- Continuous calculation (do-while loop)
+- Input validation (letter instead of number → error)
+- Division by 0 protection
 
-## ✨ ფუნქციონალი
-- ოპერაციები: `+`, `-`, `*`, `/`
-- მრავალჯერადი გამოთვლა (y/n)
-- შეცდომების მართვა: არასწორი ოპერატორი, არასწორი რიცხვები, division by zero
+## ✨ Functionality
+- Operations: `+`, `-`, `*`, `/`
+- Multiple calculation (y/n)
+- Error handling: invalid operator, invalid numbers, division by zero
 
-## 📸 დემო (ტერმინალის output მაგალითი)
+## 📸 Demo (Example terminal output)
 <img width="702" height="230" alt="image" src="https://github.com/user-attachments/assets/9a64c04d-5784-4476-9f3e-cb36a0f851d3" />
-===================== PROFESSIONAL CALCULATOR v2.0 =====================
-Enter operator (+, -, *, /): +
-Enter first number: 15.5
-Enter second number: 3.2
-✅ 15.5 + 3.2 = 18.7
-🔄 Calculate again? (y/n): y
-Enter operator (+, -, *, /): /
-Enter first number: 10
-Enter second number: 0
-❌ Error: Division by ZERO is not allowed!
 
-
-## 🛠️ როგორ გაუშვა (ინსტრუქცია)
-### Visual Studio 2022/2026 (რეკომენდებული)
-1. ჩამოტვირთე და გახსენი პროექტი.
+## 🛠️ How to launch (instructions)
+### Visual Studio 2022/2026 (recommended)
+1. Download and open the project.
 2. Build → Configuration: Release | x64
 3. Build → Build Solution (Ctrl+Shift+B)
 4. Debug → Start Without Debugging (Ctrl+F5)
 
 ### Command Line (Windows/Linux/Mac)
 ```bash
-git clone https://github.com/AnReXx2/Simple_console_calculator.git
+git clone git@github.com:AnReXx2/Simple_console_calculator.git
 cd Simple_console_calculator
-g++ -std=c++17 Main.cpp -o calculator
-./calculator   # ან calculator.exe Windows-ზე
+g++ -std=c++17 Main.cpp -o Simple_console_calculator
+./Simple_console_calculator   # or Simple_console_calculator Windows
+
+🚀 Future Development (To-Do)
+
+Saving results to a file (fstream)
+OOP version (class Calculator)
+GUI (WinAPI or Qt)
+Unit Tests (Google Test)
+
+👨‍💻 Author
+Anri — C++ Developer (Beginner-Intermediate)
+Location: Batumi, Georgia 🇬🇪
+GitHub: AnReXx2
+LinkedIn: https://www.linkedin.com/feed/
+Email: anrid040@gmail.com
+Made in 2026, Batumi💻
+
+📜 License
+MIT License — Feel free to use and modify!
+
+⭐ Request
+If you liked it, click Star ⭐ and Watch for updates!

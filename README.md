@@ -36,20 +36,20 @@ cd Simple_console_calculator
 g++ -std=c++17 Main.cpp -o Simple_console_calculator
 ./Simple_console_calculator   # or Simple_console_calculator Windows
 ```
-🚀 Future Development (To-Do)
+##🚀 Future Development (To-Do)
 
 Saving results to a file (fstream)
 OOP version (class Calculator)
 GUI (WinAPI or Qt)
 Unit Tests (Google Test)
 
-👨‍💻 Author
-Anri — C++ Developer (Beginner-Intermediate)
-Location: Batumi, Georgia 🇬🇪
-GitHub: AnReXx2
-LinkedIn: https://www.linkedin.com/feed/
-Email: anrid040@gmail.com
-Made in 2026, Batumi💻
+##👨‍💻 Author
+- Anri — C++ Developer (Beginner-Intermediate)
+- Location: Batumi, Georgia 🇬🇪
+- GitHub: AnReXx2
+- LinkedIn: https://www.linkedin.com/feed/
+- Email: anrid040@gmail.com
+- Made in 2026, Batumi💻
 
 📜 License
 MIT License — Feel free to use and modify!

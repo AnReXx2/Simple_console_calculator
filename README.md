@@ -35,7 +35,7 @@ git clone git@github.com:AnReXx2/Simple_console_calculator.git
 cd Simple_console_calculator
 g++ -std=c++17 Main.cpp -o Simple_console_calculator
 ./Simple_console_calculator   # or Simple_console_calculator Windows
-
+```
 🚀 Future Development (To-Do)
 
 Saving results to a file (fstream)

@@ -13,7 +13,6 @@
 - მუდმივი გამოთვლა (do-while loop)
 - შეყვანის ვალიდაცია (რიცხვის ნაცვლად ასო → შეცდომა)
 - 0-ზე გაყოფის დაცვა
-- ლამაზი output emoji-ებით
 
 ## ✨ ფუნქციონალი
 - ოპერაციები: `+`, `-`, `*`, `/`
@@ -21,3 +20,29 @@
 - შეცდომების მართვა: არასწორი ოპერატორი, არასწორი რიცხვები, division by zero
 
 ## 📸 დემო (ტერმინალის output მაგალითი)
+<img width="702" height="230" alt="image" src="https://github.com/user-attachments/assets/9a64c04d-5784-4476-9f3e-cb36a0f851d3" />
+===================== PROFESSIONAL CALCULATOR v2.0 =====================
+Enter operator (+, -, *, /): +
+Enter first number: 15.5
+Enter second number: 3.2
+✅ 15.5 + 3.2 = 18.7
+🔄 Calculate again? (y/n): y
+Enter operator (+, -, *, /): /
+Enter first number: 10
+Enter second number: 0
+❌ Error: Division by ZERO is not allowed!
+
+
+## 🛠️ როგორ გაუშვა (ინსტრუქცია)
+### Visual Studio 2022/2026 (რეკომენდებული)
+1. ჩამოტვირთე და გახსენი პროექტი.
+2. Build → Configuration: Release | x64
+3. Build → Build Solution (Ctrl+Shift+B)
+4. Debug → Start Without Debugging (Ctrl+F5)
+
+### Command Line (Windows/Linux/Mac)
+```bash
+git clone https://github.com/AnReXx2/Simple_console_calculator.git
+cd Simple_console_calculator
+g++ -std=c++17 Main.cpp -o calculator
+./calculator   # ან calculator.exe Windows-ზე

@@ -1,70 +1,72 @@
+﻿// Calculator.cpp - Professional Console Calculator with Error Handling
+// Author: Anri - C++ Developer
+// GitHub: https://github.com/AnReXx2
+// Version: 2.0 | Date: 2026-01-28
+// Description: Advanced console calculator with input validation, loop, and division-by-zero protection
+
 #include <iostream>
 #include <limits>
 using namespace std;
 
 int main() {
-    char op;
-    char again;
+    char op, again;
     double num1, num2, res;
 
-    cout << "-------------------- CALCULATOR --------------------\n";
+    cout << "===================== PROFESSIONAL CALCULATOR v2.0 =====================\n";
+    cout << "Author: Anri | C++ Beginner-to-Intermediate Project | Error Handling Included\n\n";
 
     do {
-        cout << "\nEnter operator (+, -, *, /): ";
+        cout << "Enter operator (+, -, *, /): ";
         cin >> op;
 
-        cout << "Enter #1: ";
+        cout << "Enter first number: ";
         cin >> num1;
-
-        cout << "Enter #2: ";
+        cout << "Enter second number: ";
         cin >> num2;
 
+        // 🔥 Input Validation
         if (cin.fail()) {
-            cout << "Invalid input! Please enter numbers.\n";
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            continue;
+            cout << "❌ Invalid input! Please enter NUMBERS only.\n";
+            cin.clear();  // Clear error flags
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Clear input buffer
+            continue;     // Skip to next iteration
         }
 
+        // 💡 Switch Statement with Professional Output
         switch (op) {
         case '+':
             res = num1 + num2;
             cout << num1 << " + " << num2 << " = " << res << endl;
             break;
-
         case '-':
             res = num1 - num2;
             cout << num1 << " - " << num2 << " = " << res << endl;
             break;
-
         case '*':
             res = num1 * num2;
             cout << num1 << " * " << num2 << " = " << res << endl;
             break;
-
         case '/':
             if (num2 == 0) {
-                cout << "Error: Division by zero!\n";
+                cout << "\nError: Division by ZERO is not allowed!\n";
             }
             else {
                 res = num1 / num2;
                 cout << num1 << " / " << num2 << " = " << res << endl;
             }
             break;
-
         default:
-            cout << "Error: Invalid operator! Use only +, -, *, /\n";
+            cout << "\nError: Invalid operator! Use ONLY: +, -, *, /\n";
             break;
         }
 
-        cout << "\nAgain? (y/n): ";
+        cout << "\nCalculate again? (y/n): ";
         cin >> again;
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');  // Clean buffer for next input
 
     } while (again == 'y' || again == 'Y');
 
-    cout << "Thank you for using the calculator!\n";
-    cout << "----------------------------------------------------\n";
-
+    cout << "\nThank you for using Professional Calculator v2.0!\n";
+    cout << "============================================================================\n";
     return 0;
 }
